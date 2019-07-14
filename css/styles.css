@@ -108,19 +108,24 @@ margin: 0 auto;
 
 /* Navigation
 -------------------------*/
+nav ul{
+  padding-left: 0;
+}
 nav li{
+
   display: inline-block;
-  font-size: 20px;
-  margin-left: 0px;
 
 }
 nav a {
+
   padding: 15px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 20px;
 
 }
+
 nav a:hover{
   border-bottom: 3px solid black;
 
@@ -140,7 +145,7 @@ nav a:hover{
   .header-col-wide {
     width: 70%;
     float: left;
-    padding-left: 100px;
+    padding-left: 20px;
     background-color: #FBFDF4;
     height: 35vw;
   }
@@ -157,7 +162,7 @@ nav a:hover{
   .header-col-wide {
     width: 70%;
     float: left;
-    padding-left: 100px;
+    padding-left: 20px;
     background-color: #FBFDF4;
     height: 25vw;
 

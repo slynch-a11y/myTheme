@@ -1,0 +1,173 @@
+/* Colors
+#DFCCB4 - medium brown
+#FBFDF4 - light brown
+#C29A74 - dark brown
+*/
+
+/* Global styles
+-------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
+}
+main{
+  line-height: 2rem;
+}
+.tagline {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  font-size: 2rem;
+  background-color: #C29A74;
+  color: black;
+  padding: 10px;
+}
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  width: 95%
+}
+.img-container {
+  box-shadow: 10px 0px 0px 0px rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+background-color: black;
+height: auto;
+width:250px;
+margin: 50px auto;
+}
+.divider {
+  width: 100%;
+  background-color: black;
+  min-height: 20px;
+}
+.main {
+  width: 100%;
+  background-color: #FBFDF4;
+  min-height: 50px;
+  padding: 50px;
+}
+
+.profile-img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* Header and Footer
+-------------------------*/
+/* header */
+header {
+  padding: 0;
+}
+header h1{
+  color: #C29A74;
+  margin: 0;
+  padding-top: 100px;
+}
+
+/* footer */
+footer {
+width: 95%;
+margin: 0 auto;
+  background-color: #C29A74;
+  min-height: 50px;
+  padding: 50px;
+  text-align: center;
+  color: black;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* Navigation
+-------------------------*/
+nav li{
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 0px;
+
+}
+nav a {
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+nav a:hover{
+  border-bottom: 3px solid black;
+
+}
+
+
+/* Media Queries
+-------------------------*/
+@media (min-width: 900px) {
+  .header-col-narrow {
+    width: 30%;
+    float: left;
+    background-color: #DFCCB4;
+    height: 35vw;
+    padding: 20px;
+  }
+  .header-col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 100px;
+    background-color: #FBFDF4;
+    height: 35vw;
+  }
+}
+@media (min-width: 1415px) {
+  .header-col-narrow {
+
+    width: 30%;
+    float: left;
+    background-color: #DFCCB4;
+    height: 25vw;
+    padding: 20px;
+  }
+  .header-col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 100px;
+    background-color: #FBFDF4;
+    height: 25vw;
+
+  }
+
+}
+
+@media (max-width: 899px){
+  header {
+    text-align: center;
+  }
+
+}

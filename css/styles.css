@@ -16,7 +16,12 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
+input:focus, button:focus{
+  outline: 3px solid red;
+}
+a:focus {
+  outline: 3px solid black;
+}
 body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;

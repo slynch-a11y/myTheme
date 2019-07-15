@@ -58,7 +58,7 @@ a:hover {
 background-color: black;
 height: auto;
 width:250px;
-margin: 50px auto;
+margin: 0 auto;
 }
 .divider {
   width: 100%;
@@ -139,7 +139,7 @@ nav a:hover{
     width: 30%;
     float: left;
     background-color: #DFCCB4;
-    height: 35vw;
+    height: 400px;
     padding: 20px;
   }
   .header-col-wide {
@@ -147,28 +147,10 @@ nav a:hover{
     float: left;
     padding-left: 20px;
     background-color: #FBFDF4;
-    height: 35vw;
+    height: 400px;
   }
 }
-@media (min-width: 1415px) {
-  .header-col-narrow {
 
-    width: 30%;
-    float: left;
-    background-color: #DFCCB4;
-    height: 25vw;
-    padding: 20px;
-  }
-  .header-col-wide {
-    width: 70%;
-    float: left;
-    padding-left: 20px;
-    background-color: #FBFDF4;
-    height: 25vw;
-
-  }
-
-}
 
 @media (max-width: 899px){
   header {

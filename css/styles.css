@@ -10,17 +10,23 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   font-size: 1.5rem;
 }
-main{
+
+main {
   line-height: 2rem;
 }
+
 .tagline {
   font-family: 'Raleway', sans-serif;
   margin: 0;
@@ -29,10 +35,34 @@ main{
   color: black;
   padding: 10px;
 }
+
 .search {
   float: right;
   margin-right: 10px;
+
 }
+
+.jump-menu a {
+  top: auto;
+  left: -999px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.jump-menu a:focus {
+  top: auto;
+  left: auto;
+  background-color: white;
+  height: auto;
+  overflow: auto;
+  margin: 10px 35%;
+  padding: 5px;
+  outline: 3px solid black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
@@ -48,27 +78,32 @@ h2 {
 a {
   color: black;
 }
+
 a:hover {
   text-decoration: none;
 }
+
 .content-wrap {
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
   width: 95%
 }
+
 .img-container {
   box-shadow: 10px 0px 0px 0px rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
-background-color: black;
-height: auto;
-width:250px;
-margin: 0 auto;
+  background-color: black;
+  height: auto;
+  width: 250px;
+  margin: 0 auto;
 }
+
 .divider {
   width: 100%;
   background-color: black;
   min-height: 50px;
 }
+
 .main {
   width: 100%;
   background-color: #FBFDF4;
@@ -87,7 +122,8 @@ margin: 0 auto;
 header {
   padding: 0;
 }
-header h1{
+
+header h1 {
   color: black;
   margin: 0;
   padding-top: 100px;
@@ -95,8 +131,8 @@ header h1{
 
 /* footer */
 footer {
-width: 95%;
-margin: 0 auto;
+  width: 95%;
+  margin: 0 auto;
   background-color: #C29A74;
   min-height: 50px;
   padding: 50px;
@@ -112,14 +148,16 @@ margin: 0 auto;
 
 /* Navigation
 -------------------------*/
-nav ul{
+nav ul {
   padding-left: 0;
 }
-nav li{
+
+nav li {
 
   display: inline-block;
 
 }
+
 nav a {
 
   padding: 15px;
@@ -130,7 +168,7 @@ nav a {
 
 }
 
-nav a:hover{
+nav a:hover {
   border-bottom: 3px solid black;
 
 }
@@ -146,6 +184,7 @@ nav a:hover{
     height: 400px;
     padding: 20px;
   }
+
   .header-col-wide {
     width: 70%;
     float: left;
@@ -156,7 +195,7 @@ nav a:hover{
 }
 
 
-@media (max-width: 899px){
+@media (max-width: 899px) {
   header {
     text-align: center;
   }

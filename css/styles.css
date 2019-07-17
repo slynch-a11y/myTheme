@@ -47,19 +47,21 @@ main {
 
 }
 
-.jump-menu a {
+.jump-menu a{
   top: auto;
-  left: -999px;
-  position: absolute;
+  height: 1;
+  margin: -1;
+  clip: rect(0, 0, 0, 0);
   overflow: hidden;
+  position: absolute;
 }
 
 .jump-menu a:focus {
-  top: auto;
-  left: auto;
+  clip: auto;
+  position: static;
   background-color: white;
   height: auto;
-  overflow: auto;
+  overflow: visible;
   margin: 10px 35%;
   padding: 5px;
   outline: 3px solid black;

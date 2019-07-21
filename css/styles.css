@@ -94,26 +94,31 @@ a:hover {
   outline: 3px solid black;
   text-decoration: none;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
-.search-bar {
+.brand-search-bar {
   width: 100%;
   background-color: #DFCCB4;
   min-height: 3rem;
   padding-top: 10px;
+  position: relative;
+}
+.brand-search-inner {
+  display: flex;
+  justify-content: space-between;
 }
 .search {
   display: block;
     text-align: center;
 }
 .img-container {
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/horses.jpg);
   background-color: black;
-  height: 350px;
+height: 500px;
   width: 100%;
   background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+/* background-position: center; */
+background-size: auto;
 background-attachment: fixed;
 
 }
@@ -162,9 +167,9 @@ padding-top: 30px;
   background-color: #FBFDF4;
 }
 .logo {
-  margin-left:15px;
+  margin-left:25px;
     font-size: 1.5rem;
-    /* padding: 10px; */
+    padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
@@ -183,7 +188,7 @@ padding-top: 30px;
   display: block;
 }
 nav a {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase;

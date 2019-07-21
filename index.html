@@ -16,53 +16,69 @@
 </head>
 
 <body>
-  <!-- Jump Menu -->
-    <nav aria-label="Jump menu" class="jump-menu">
 
-        <a href="#main">Skip to Main Content</a>
-    <a href="#search">Skip to Search</a>
-    </nav>
   <!-- Header -->
 <header>
-  <div class="content-wrap">
+ <!-- Jump Menu -->
+    <div class="jump-menu">
 
-    <div class="header-col-narrow">
-      <div class="img-container">
-        <img class="profile-img" src="images/leo.jpg" alt="">
-      </div>
+        <a href="#main">Skip to Main Content</a>
+
     </div>
-    <div class="header-col-wide">
+     <!-- Navigation Menu -->
+<nav class="navbar" aria-label="primary">
+<div class="container" style="height:5px">
 
-      <h1>Leo</h1>
-      <div class="tagline">The cutest cat</div>
-      <nav>
-      <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Contact</a></li>
-      </ul>
+       <a href="#" class="logo">Leo</a></div>
+       <button class="navbar-toggle" id="js-navbar-toggle">
+            <span class="fas fa-bars"></span>
+        </button>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Products</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+        </ul>
       </nav>
-    </div>
-  </div><div class="content-wrap">
-    <div class="divider">
+<div class="search-bar">
       <form class="search">
       <input type="search" placeholder="Search" aria-label="search" name="search">
       <button type="submit" aria-label="submit"><i class="fa fa-search"></i></button>
     </form>
     </div>
+      <div class="img-container">
+
+    </div>
+
+
+
+
+  <div class="content-wrap">
+
   </div>
 </header>
 
   <main id="main" tabindex="-1">
-    <div class="content-wrap">
 
       <div class="main">
+
+      <h1>Heading Level 1</h1>
         <h2>First Heading</h2>
 
         <p>Cat ipsum dolor sit amet, meow in empty rooms eat the rubberband tuxedo cats always looking dapper ears back wide eyed. Stick butt in face. Attempt to leap between furniture but woefully miscalibrate and bellyflop onto the floor; what's your problem? i meant to do that now i shall wash myself intently get scared by sudden appearance of cucumber, i love cuddles or cough hairball, eat toilet paper. Chill on the couch table cats woo yet nap all day, or mrow. Pet me pet me pet me pet me, bite, scratch, why are you petting me. Have my breakfast spaghetti yarn floof tum, tickle bum, jellybean footies curly toes or shred all toilet paper and spread around the house yet stare out cat door then go back inside. Stand in front of the computer screen. Attack like a vicious monster stares at human while pushing stuff off a table but human clearly uses close to one life a night no one naps that long so i revive by standing on chestawaken! or shred all toilet paper and spread around the house i see a bird i stare at it i meow at it i do a wiggle come here birdy. </p>
 
-        <p>Cough furball into food bowl then scratch owner for a new one eat a plant, kill a hand sleep on keyboard, for cat slap dog in face. You have cat to be kitten me right meow meow all night but make meme, make cute face. Play riveting piece on synthesizer keyboard dont wait for the storm to pass, dance in the rain. Inspect anything brought into the house. Vommit food and eat it again sleep on keyboard shove bum in owner's face like camera lens or meow meow mama or a nice warm laptop for me to sit on, but sniff sniff shred all toilet paper and spread around the house. Cat ass trophy i'm bored inside, let me out i'm lonely outside, let me in i can't make up my mind whether to go in or out, guess i'll just stand partway in and partway out, contemplating the universe for half an hour how dare you nudge me with your foot?!?! leap into the air in greatest offense!. </p>
+        <p>Cough furball into food bowl then scratch owner for a new one eat a plant, kill a hand sleep on keyboard, for cat slap dog in face. You have cat to be kitten me right meow meow all night but make meme, <a href="#">make cute face</a>. Play riveting piece on synthesizer keyboard dont wait for the storm to pass, dance in the rain. Inspect anything brought into the house. Vommit food and eat it again sleep on keyboard shove bum in owner's face like camera lens or meow meow mama or a nice warm laptop for me to sit on, but sniff sniff shred all toilet paper and spread around the house. Cat ass trophy i'm bored inside, let me out i'm lonely outside, let me in i can't make up my mind whether to go in or out, guess i'll just stand partway in and partway out, contemplating the universe for half an hour how dare you nudge me with your foot?!?! leap into the air in greatest offense!. </p>
 
         <p>Rub face on everything fooled again thinking the dog likes me i’m so hungry i’m so hungry but ew not for that and hack, and make plans to dominate world and then take a nap. Cat snacks lie on your belly and purr when you are asleep, yet sleep on keyboard at four in the morning wake up owner meeeeeeooww scratch at legs and beg for food then cry and yowl until they wake up at two pm jump on window and sleep while observing the bootyful cat next door that u really like but who already has a boyfriend end up making babies with her and let her move in but good now the other hand, too and throw down all the stuff in the kitchen try to hold own back foot to clean it but foot reflexively kicks you in face, go into a rage and bite own foot, hard. Play time throwup on your pillow, or catty ipsum, or grass smells good sit and stare. Pretend not to be evil shake treat bag swipe at owner's legs, but make muffins scream at teh bath. Hiss and stare at nothing then run suddenly away swipe at owner's legs get my claw stuck in the dog's ear. Have secret plans find box a little too small and curl up with fur hanging out paw at beetle and eat it before it gets away yet trip on catnip. Suddenly go on wild-eyed crazy rampage shake treat bag fall asleep upside-down.
 </p>
@@ -78,7 +94,7 @@
 
 
       </div>
-    </div>
+
   </main>
 
 
@@ -110,7 +126,13 @@
  </div>
     </footer>
 <script>
+let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
 
+navBarToggle.addEventListener('click', function () {
+
+    mainNav.classList.toggle('active');
+});
 </script>
 </body>
 

@@ -161,7 +161,8 @@ padding-top: 30px;
   position: absolute;
   top: 40px;
   right: 20px;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  width: 2.5rem;
   background-color: #FBFDF4;
 }
 .search {
@@ -172,6 +173,7 @@ padding-top: 30px;
   /* top: 40px;
   right: 30px; */
   font-size: 1.5rem;
+  width: 2.5rem;
   background-color: #FBFDF4;
   /* display: block;
   text-align: center;

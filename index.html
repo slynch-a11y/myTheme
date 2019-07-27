@@ -53,9 +53,14 @@
 <div class="brand-search-inner">
 <a href="#" class="logo">My Site</a>
 
-      <form class="search">
+<button class="search-toggle" id="js-search-toggle" aria-expanded="false" aria-label="open search">
+            <span class="fa fa-search" id="search-image"></span>
+        </button>
+
+      <form class="search" id="js-search">
       <input type="search" placeholder="Search" aria-label="search" name="search">
-      <!-- <button type="submit" aria-label="submit"><i class="fa fa-search"></i></button> -->
+      <button type="submit" aria-label="submit"><i class="fa fa-search"></i></button>
+
     </form>
     </div>
     </div>
@@ -79,7 +84,7 @@
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Nisl suscipit adipiscing bibendum est ultricies. Egestas sed tempus urna et pharetra pharetra massa massa. Consequat mauris nunc congue nisi vitae suscipit tellus. Gravida neque convallis a cras semper auctor. Posuere morbi leo urna molestie. Tortor id aliquet lectus proin. Maecenas ultricies mi eget mauris pharetra et ultrices. Non sodales neque sodales ut. Nulla aliquet porttitor lacus luctus. Ut placerat orci nulla pellentesque dignissim enim sit. Egestas maecenas pharetra convallis posuere morbi leo urna.</p>
 
-       
+
 
 
 
@@ -128,7 +133,7 @@ let mainNav = document.getElementById('js-menu');
 let navBarToggle = document.getElementById('js-navbar-toggle');
 let toggle = true;
 navBarToggle.addEventListener('click', function () {
-    
+
 if (toggle){
   mainNav.classList.add("active")
   toggle = false
@@ -138,8 +143,32 @@ if (toggle){
   toggle=true
   navBarToggle.setAttribute("aria-expanded", "false")
 }
-    
+
 });
+let searchToggle = document.getElementById('js-search-toggle');
+let searchForm = document.getElementById('js-search');
+let search = true
+let searchImage = document.getElementById('search-image')
+searchToggle.addEventListener('click', function () {
+if (search){
+  searchForm.classList.add("search-active")
+  search = false
+  searchToggle.setAttribute("aria-expanded", "true")
+  searchImage.classList.remove("fa-bars")
+
+  searchImage.classList.add("fa-window-close")
+}else{
+  searchForm.classList.remove("search-active")
+  search=true
+  searchToggle.setAttribute("aria-expanded", "false")
+  searchImage.classList.remove("fa-window-close")
+
+  searchImage.classList.add("fa-bars")
+}
+
+});
+
+
 </script>
 </body>
 

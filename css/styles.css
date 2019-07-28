@@ -200,10 +200,10 @@ padding-top: 30px;
   display: flex;
   display: -webkit-flexbox;
   display: -ms-flexbox;
-
 }
 .center {
-  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .search-region input {
   flex: 1;

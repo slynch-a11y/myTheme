@@ -165,7 +165,7 @@ padding-top: 30px;
   width: 32px;
   height: 32px;
   /* text-align: center; */
-  background-color: purple;
+  background-color: green;
 }
 .search {
   display: none;
@@ -205,13 +205,14 @@ padding-top: 30px;
   /* align-items: center; */
     /* justify-content: center; */
 }
+
 .search-region input {
   flex: 1;
 font-size: 1rem;
 background-color: #FBFDF4;
 
 }
-.search-button {
+.search-button-toggle {
   background-color: #FBFDF4;
   min-width: 32px; /* Minimum width of your wrapper element */
   overflow: hidden;

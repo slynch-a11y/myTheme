@@ -161,9 +161,9 @@ padding-top: 30px;
   position: absolute;
   top: 40px;
   right: 20px;
-  font-size: 1.5rem;
-  width: 2.5rem;
-  height: 2.5rem;
+  font-size: 16px;
+  width: 32px;
+  height: 32px;
   /* text-align: center; */
   background-color: #FBFDF4;
 }
@@ -174,9 +174,9 @@ padding-top: 30px;
   position: absolute;
   /* top: 40px;
   right: 30px; */
-  font-size: 1.5rem;
-  width: 2.5rem;
-  height: 2.5rem;
+  font-size: 16px;
+  width: 32px;
+  height: 32px;
   background-color: #FBFDF4;
   /* text-align: center; */
   /* display: block;
@@ -196,7 +196,6 @@ padding-top: 30px;
 
   padding-top: 5px;
 
-
   display: flex;
   display: -webkit-flexbox;
   display: -ms-flexbox;
@@ -208,6 +207,14 @@ padding-top: 30px;
   flex: 1;
 font-size: 1rem;
 background-color: #FBFDF4;
+
+}
+.search-button {
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+
+  background-color: #FBFDF4;
 }
 
 .logo {

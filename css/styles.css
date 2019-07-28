@@ -168,7 +168,7 @@ padding-top: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
   /* text-align: center; */
-  background-color: orange;
+  background-color: blue;
 }
 .search {
   display: none;
@@ -216,7 +216,9 @@ margin: 0 auto;
 .search-region input {
   flex: 1;
 font-size: 1rem;
+border-radius: 0;
 background-color: #FBFDF4;
+margin-bottom: 0;
 
 }
 .search-button-toggle {
@@ -231,6 +233,7 @@ background-color: #FBFDF4;
   right: 20px;
 }
 .search-button {
+  border-radius: 0;
   margin: 0;
 }
 

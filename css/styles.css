@@ -168,7 +168,7 @@ padding-top: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
   /* text-align: center; */
-  background-color: green;
+  background-color: orange;
 }
 .search {
   display: none;
@@ -213,7 +213,7 @@ margin: 0 auto;
     /* justify-content: center; */
 }
 
-.search-region input, .search-region button {
+.search-region input {
   flex: 1;
 font-size: 1rem;
 background-color: #FBFDF4;
@@ -229,6 +229,9 @@ background-color: #FBFDF4;
   position: absolute;
   top: 0px;
   right: 20px;
+}
+.search-button {
+  margin: 0;
 }
 
 .logo {

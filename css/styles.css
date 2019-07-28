@@ -216,6 +216,7 @@ background-color: #FBFDF4;
   background-color: #FBFDF4;
   min-width: 32px; /* Minimum width of your wrapper element */
   min-height: 32px;
+  margin: 0 auto;
   overflow: hidden;
   display: inline-block;
   position: absolute;

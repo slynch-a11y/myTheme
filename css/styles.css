@@ -165,7 +165,7 @@ padding-top: 30px;
   width: 32px;
   height: 32px;
   /* text-align: center; */
-  background-color: green;
+  background-color: red;
 }
 .search {
   display: none;
@@ -175,8 +175,8 @@ padding-top: 30px;
   /* top: 40px;
   right: 30px; */
   /* font-size: 16px; */
-  width: 32px;
-  height: 32px;
+  /* width: 32px;
+  height: 32px; */
   background-color: #FBFDF4;
   text-align: center;
   /* display: block;
@@ -200,8 +200,8 @@ padding-top: 30px;
   display: -ms-flexbox;
 }
 .fas {
-  align-content: center;
-  text-align: center;
+  /* align-content: center;
+  text-align: center; */
   /* align-items: center; */
     /* justify-content: center; */
 }

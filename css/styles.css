@@ -168,7 +168,7 @@ padding-top: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
   /* text-align: center; */
-  background-color: blue;
+  background-color: red;
 }
 .search {
   display: none;
@@ -234,6 +234,8 @@ background-color: #FBFDF4;
 .search-button {
   border-radius: 0;
   margin-bottom: 3px;
+  background-color: #FBFDF4;
+
 }
 
 .logo {

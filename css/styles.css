@@ -184,9 +184,16 @@ padding-bottom: 5px;
   background-color: #FBFDF4;
   text-align: center;
 margin: 0 auto;
-  display: inline-block;
   vertical-align: middle;
   line-height: normal;
+  min-width: 32px; /* Minimum width of your wrapper element */
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 20px;
   /* display: block;
   text-align: center;
   position: absolute; */
@@ -221,17 +228,7 @@ background-color: #FBFDF4;
 margin-bottom: 0;
 
 }
-.search-button-toggle {
-  background-color: #FBFDF4;
-  min-width: 32px; /* Minimum width of your wrapper element */
-  margin: 0 auto;
-  text-align: center;
-  overflow: hidden;
-  display: inline-block;
-  position: absolute;
-  top: 0px;
-  right: 20px;
-}
+
 .search-button {
   border-radius: 0;
   margin: 0;

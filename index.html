@@ -11,7 +11,7 @@
   <title>My Site | Home</title>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:400i|Source+Sans+Pro&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"> -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -22,12 +22,13 @@
     <!-- Jump Menu -->
 
     <!-- Navigation Menu -->
-    <nav class="navbar" aria-label="primary">
+    <div class="navbar" aria-label="primary">
       <div class="jump-menu">
 
         <a href="#main">Skip to Main Content</a>
 
       </div>
+      <nav aria-label="primary">
       <button class="navbar-toggle" id="js-navbar-toggle" aria-expanded="false" aria-label="menu">
         <span class="fas fa-bars"></span>
       </button>
@@ -49,6 +50,7 @@
         </li>
       </ul>
     </nav>
+    </div>
     <div class="brand-search-bar">
       <div class="brand-search-inner">
         <a href="#" class="logo"><span class="fas fa-pencil-alt" aria-hidden="true"></span> My Blog</a>
@@ -127,19 +129,26 @@
       <div class="tagline">Connect with me!</div>
 
       <!-- Social media links. Add or remove any networks. -->
-      <div class="contact-info">
+      <nav class="contact-info" aria-label="social">
+      <ul><li>
         <a href="mailto:" aria-label="Email">
           <span class="far fa-envelope" aria-hidden="true"></span>
 
         </a>
+        </li>
+  <li>
         <a href="https://twitter.com/" aria-label="Twitter">
           <span class="fab fa-twitter" aria-hidden="true"></span>
 
         </a>
+        </li>
+  <li>
         <a href="https://www.linkedin.com/" aria-label="LinkedIn">
           <span class="fab fa-linkedin-in" aria-hidden="true"></span>
         </a>
-      </div>
+        </li>
+  </ul>
+      </nav>
 
       <div>Copyright 2019</div>
 
